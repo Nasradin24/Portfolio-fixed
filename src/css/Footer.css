@@ -1,0 +1,19 @@
+.footer-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 5vh;           
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.footer-last img{
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+
+
+

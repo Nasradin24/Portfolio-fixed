@@ -1,0 +1,21 @@
+.experience{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;           
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.experience h4{
+    color: gray;
+    font-size: 20px;
+    align-items: right;
+}
+
+.experience h5{
+    color: gray;
+    font-size: 19px;
+    align-items: right;
+}

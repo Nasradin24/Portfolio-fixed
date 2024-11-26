@@ -1,0 +1,98 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+.title h2{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.navbar-list {
+    list-style-type: none; 
+    padding: 0;           
+    margin-left: 35px;        
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 5px;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 1.7rem;
+}
+
+.navbar-list li a:hover {
+    color: black;
+}
+
+.sun-icon{
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding-top: 3px;
+}
+
+.sun-icon:hover{
+    color: orange;
+}
+
+@media only screen and (max-width: 993px) {
+    .title, .span h2{
+        color: white;
+        cursor: pointer;
+        padding-top: 35px;
+    }
+
+    .navbar-list {
+        list-style-type: none;            
+        margin-left: 35px;      
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 5px;
+    }
+  }
+
+  .menu-icon {
+    display: none; 
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .menu-icon {
+      display: block; 
+    }
+  
+    .navbar-list {
+      display: none; 
+    }
+  
+    .navbar-list.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      padding: 20px 0;
+    }
+  
+    .navbar-list li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .navbar-list li a {
+      font-size: 1.5rem;
+    }
+  }
+  
